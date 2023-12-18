@@ -11,7 +11,7 @@ name2 = input('What is their Name? \n')
 combine = name1 + name2
 lowerCase = combine.lower()
 
-# Counting True love letters in user names
+# Counting True love letters in usernames
 t = lowerCase.count('t')
 r = lowerCase.count('r')
 u = lowerCase.count('u')
@@ -38,4 +38,3 @@ elif love_score >= 40 and love_score <= 50:
 
 else:
     print(f'Your score is {love_score}')
-
